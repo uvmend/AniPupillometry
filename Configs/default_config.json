@@ -1,0 +1,38 @@
+{
+    "video_path": null,
+    "fps": 30.0,
+    "total_frames": 0,
+    "duration_ms": 0,
+    "frame_width": 0,
+    "frame_height": 0,
+    "start_frame": 0,
+    "end_frame": 0,
+    "loop_range": false,
+    "crop_roi": null,
+    "is_cropped_view": false,
+    "processing_params": {
+        "brightness": 0,
+        "contrast": 1.0,
+        "gamma": 1.0,
+        "clahe_enabled": false,
+        "clahe_clip": 2.0,
+        "clahe_grid": 8,
+        "invert": false,
+        "grayscale": false,
+        "show_threshold": false,
+        "threshold_val": 45,
+        "cr_filter": true,
+        "cr_threshold": 215
+    },
+    "tracking_params": {
+        "algorithm": "eyeloop_rays",
+        "pupil_threshold": 45,
+        "min_pupil_area": 30,
+        "max_pupil_area": 50000,
+        "min_circularity": 0.25,
+        "ray_count": 32,
+        "cr_removal": true,
+        "temporal_smoothing": true,
+        "ellipse_color": "#ec4899"
+    }
+}

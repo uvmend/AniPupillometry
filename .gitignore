@@ -1,0 +1,34 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+
+# Local data, outputs, and user sessions (may contain local file paths)
+Data/*
+!Data/bat_pupil_sample.mp4
+Results/*
+!Results/*.png
+Configs/*_session.json
+!Configs/default_config.json
+
+# Environment variables & secrets
+.env
+.env.*
+*.pem
+*.key
+
+# IDE & OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
